@@ -1,0 +1,19 @@
+.list-content {
+    white-space: nowrap;
+    font-size: 0;
+    overflow: hidden;
+    padding: 50px;
+    margin: -50px;
+}
+
+.contentgroup {
+    width: 100%;
+    z-index: 2;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+
+    &.fading-out {
+        opacity: 0;
+        display: none;
+    }
+}
